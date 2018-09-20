@@ -1,3 +1,0 @@
-server <- function(input, output, session) {}
-ui <- fluidPage(singleton(tags$head(tags$script('window.location.replace("http://www.hrc.org");'))))
-shinyApp(ui = ui, server = server)
